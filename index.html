@@ -1,52 +1,67 @@
 <!DOCTYPE html>
-
-<html xmlns="http/www.w3.org/1999/xhtml" lang="EN">
-
+<html lang="en">
 <head>
-    <title>
-        Home
-    </title>
-    <meta name="description" content="My Portfolio"/>
-    <meta name="keywords" content="Programming, Web3, Portfolio, Mustapha Idris"/>
-    <meta name="author" content="Mustapha Idris Suleiman"/>
-    <meta name="content-type" content="text/html"/>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Generation Tech</title>
+    <link rel="stylesheet" href="css/styles.css" />
 
+    <script src="https://kit.fontawesome.com/eea03c97cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 </head>
-
 <body>
-    <div id="header">
-        <div id="logo"><a href="index.html"><img title="logo" src="images/logo.png"/></a></div>
-        <div id="nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-        </ul>
-    </div>
-    </div>
-        <div id="wrapper">
-            <div id="main"> <img title="main image" src="images/1.jpg"/>         
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fa fa-robot"></i> NEXT</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-           <table id="table1" cellspacing="40">
-               <td>
-                   <h3>Home</h3> Once this primal current or force within us reaches the level of consciousness, we have to react to it, and we do so depending on explaining...<a href="index.html">Home</a>
-               </td>
-               <td>
-                <h3>About</h3> For thousands of years, it has been our fate to largely grope in the shadows when it comes to understanding ourselves and our own nature....<a href="about.html">About</a>
-            </td>
-            <td>
-                <h3>FAQ</h3> Each chapter has the story of some iconic individual or individuals who illustrate the law (negatively or positively), along with ideas...<a href="FAQ.html">FAQ</a>
-            </td>
-           </table>
-            <div id="footer">
-                &copy; 2022 My Portfolio. All rights reserved.
+            <ul class="navbar__menu" >
+                <li class="navbar__item">
+                    <a title="Home" href="/" class="navbar__links"> Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a title="Tech News" href="/" class="navbar__links"> Tech
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a title="About us" href="/about.html" class="navbar__links"> About
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a title="Frequently Asked Questions" href="/FAQ.html" class="navbar__links">FAQ
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a title="Sign Up" href="/" class="button"> Sign Up
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>NEXT GENERATION</h1>
+                <h2>TECHNOLOGY</h2>
+                <p>See what makes us different</p>
+                <button title="main button" class="main__btn">
+                    <a href="/">Get Started</a>
+                </button>
             </div>
-        </div>   
+            <div class="main__img--container">
+                <img src="images/dev_productivity.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
 </body>
-
 </html>
